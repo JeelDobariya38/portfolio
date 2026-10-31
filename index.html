@@ -1,119 +1,265 @@
 <!doctype html>
 <html lang="en" data-theme="dark">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#090d16">
-  <meta name="description" content="Jeel Dobariya — Software Engineer and Open-Source Maintainer. Building useful applications, developer tools, and thoughtful software experiences.">
-  <meta property="og:title" content="Jeel Dobariya — Software Engineer">
-  <meta property="og:description" content="Software Engineer & Open-Source Maintainer building useful software.">
-  <meta property="og:type" content="website">
-  <title>Jeel Dobariya — Software Engineer & Open-Source Maintainer</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-  <link rel="stylesheet" href="css/styles.css">
-  <script src="https://unpkg.com/lucide@latest"></script>
-</head>
-<body>
-  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
-  <header class="site-header">
-    <a class="brand" href="#home" aria-label="Jeel Dobariya home"><span class="brand-mark">J<span>.</span></span><span>jeel<span class="brand-muted">.dev</span></span></a>
-    <nav class="desktop-nav" aria-label="Main navigation">
-      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#090d16">
+    <meta name="description"
+      content="Jeel Dobariya — Software Engineer and Open-Source Maintainer. Building useful applications, developer tools, and thoughtful software experiences.">
+    <meta property="og:title" content="Jeel Dobariya — Software Engineer">
+    <meta property="og:description" content="Software Engineer & Open-Source Maintainer building useful software.">
+    <meta property="og:type" content="website">
+    <title>Jeel Dobariya — Software Engineer & Open-Source Maintainer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </head>
+
+  <body>
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Jeel Dobariya home"><span
+          class="brand-mark">J<span>.</span></span><span>jeel<span class="brand-muted">.dev</span></span></a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a
+          href="#education">Education</a><a href="#contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button theme-toggle" id="themeToggle" aria-label="Switch color theme"
+          title="Toggle theme"><i data-lucide="sun"></i></button>
+        <a class="header-cta" href="#contact">Let's talk <i data-lucide="arrow-up-right"></i></a>
+        <button class="icon-button menu-toggle" id="menuToggle" aria-label="Open navigation menu"
+          aria-expanded="false"><i data-lucide="menu"></i></button>
+      </div>
+    </header>
+    <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a
+        href="#education">Education</a><a href="#contact">Contact</a>
     </nav>
-    <div class="header-actions">
-      <button class="icon-button theme-toggle" id="themeToggle" aria-label="Switch color theme" title="Toggle theme"><i data-lucide="sun"></i></button>
-      <a class="header-cta" href="#contact">Let's talk <i data-lucide="arrow-up-right"></i></a>
-      <button class="icon-button menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false"><i data-lucide="menu"></i></button>
-    </div>
-  </header>
-  <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
-    <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a>
-  </nav>
 
-  <main>
-    <section class="hero section-shell" id="home">
-      <div class="hero-copy">
-        <div class="eyebrow"><span class="status-dot"></span> SOFTWARE ENGINEER <span class="eyebrow-divider">/</span> OPEN-SOURCE MAINTAINER</div>
-        <h1>Building software<br>that <span class="gradient-text">solves real</span><br>problems<span class="period">.</span></h1>
-        <p class="hero-lede">I'm Jeel, a software engineer and open-source maintainer passionate about building thoughtful applications, developer tools, and useful software experiences.</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="#projects">Explore my work <i data-lucide="arrow-up-right"></i></a>
-          <a class="button button-quiet" href="#contact">Get in touch <i data-lucide="arrow-right"></i></a>
-        </div>
-        <div class="social-row">
-          <a href="https://github.com/JeelDobariya38" target="_blank" rel="noreferrer"><i data-lucide="github"></i><span>GitHub</span></a>
-          <a href="https://www.linkedin.com/in/jeeldobariya" target="_blank" rel="noreferrer"><i data-lucide="linkedin"></i><span>LinkedIn</span></a>
-          <a href="https://t.me/jeeldobariya38" target="_blank" rel="noreferrer"><i data-lucide="send"></i><span>Telegram</span></a>
-        </div>
-      </div>
-      <div class="hero-visual" aria-label="Decorative code editor illustration">
-        <div class="visual-orbit orbit-a"></div><div class="visual-orbit orbit-b"></div>
-        <div class="code-window">
-          <div class="window-top"><div class="window-dots"><b></b><b></b><b></b></div><span>developer.ts</span><i data-lucide="ellipsis"></i></div>
-          <div class="code-content">
-            <div><span class="line-no">01</span><span class="code-purple">const</span> <span class="code-blue">developer</span> = {</div>
-            <div><span class="line-no">02</span>&nbsp;&nbsp;name: <span class="code-green">'Jeel Dobariya'</span>,</div>
-            <div><span class="line-no">03</span>&nbsp;&nbsp;role: <span class="code-green">'Software Engineer'</span>,</div>
-            <div><span class="line-no">04</span>&nbsp;&nbsp;focus: [</div>
-            <div><span class="line-no">05</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-green">'Building products'</span>,</div>
-            <div><span class="line-no">06</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-green">'Open source'</span>,</div>
-            <div><span class="line-no">07</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-green">'Learning every day'</span></div>
-            <div><span class="line-no">08</span>&nbsp;&nbsp;],</div>
-            <div><span class="line-no">09</span>&nbsp;&nbsp;available: <span class="code-orange">true</span></div>
-            <div><span class="line-no">10</span>};</div>
-            <div class="code-cursor"><span class="line-no">11</span><span class="cursor-block"></span></div>
+    <main>
+      <section class="hero section-shell" id="home">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="status-dot"></span> SOFTWARE ENGINEER <span class="eyebrow-divider">/</span>
+            OPEN-SOURCE MAINTAINER</div>
+          <h1>Building software<br>that <span class="gradient-text">solves real</span><br>problems<span
+              class="period">.</span></h1>
+          <p class="hero-lede">I'm Jeel, a software engineer and open-source maintainer passionate about building
+            thoughtful applications, developer tools, and useful software experiences.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my work <i data-lucide="arrow-up-right"></i></a>
+            <a class="button button-quiet" href="#contact">Get in touch <i data-lucide="arrow-right"></i></a>
           </div>
-          <div class="window-bottom"><span><i data-lucide="git-branch"></i> main</span><span><i data-lucide="check-circle-2"></i> Ready to build</span></div>
+          <div class="social-row">
+            <a href="https://github.com/JeelDobariya38" target="_blank" rel="noreferrer"><i
+                data-lucide="github"></i><span>GitHub</span></a>
+            <a href="https://www.linkedin.com/in/jeeldobariya" target="_blank" rel="noreferrer"><i
+                data-lucide="linkedin"></i><span>LinkedIn</span></a>
+            <a href="https://t.me/jeeldobariya38" target="_blank" rel="noreferrer"><i
+                data-lucide="send"></i><span>Telegram</span></a>
+          </div>
         </div>
-        <div class="floating-chip chip-open"><span class="chip-icon"><i data-lucide="git-pull-request"></i></span><span><b>Open source</b><small>Building in public</small></span></div>
-        <div class="floating-chip chip-stack"><span class="chip-icon"><i data-lucide="layers-3"></i></span><span><b>Full-stack mindset</b><small>Web · Mobile · Backend</small></span></div>
-        <div class="visual-glow"></div>
-      </div>
-      <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
-    </section>
+        <div class="hero-visual" aria-label="Decorative code editor illustration">
+          <div class="visual-orbit orbit-a"></div>
+          <div class="visual-orbit orbit-b"></div>
+          <div class="code-window">
+            <div class="window-top">
+              <div class="window-dots"><b></b><b></b><b></b></div><span>developer.ts</span><i
+                data-lucide="ellipsis"></i>
+            </div>
+            <div class="code-content">
+              <div><span class="line-no">01</span><span class="code-purple">const</span> <span
+                  class="code-blue">developer</span> = {</div>
+              <div><span class="line-no">02</span>&nbsp;&nbsp;name: <span class="code-green">'Jeel Dobariya'</span>,
+              </div>
+              <div><span class="line-no">03</span>&nbsp;&nbsp;role: <span class="code-green">'Software Engineer'</span>,
+              </div>
+              <div><span class="line-no">04</span>&nbsp;&nbsp;focus: [</div>
+              <div><span class="line-no">05</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-green">'Building
+                  products'</span>,</div>
+              <div><span class="line-no">06</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-green">'Open source'</span>,
+              </div>
+              <div><span class="line-no">07</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-green">'Learning every
+                  day'</span></div>
+              <div><span class="line-no">08</span>&nbsp;&nbsp;],</div>
+              <div><span class="line-no">09</span>&nbsp;&nbsp;available: <span class="code-orange">true</span></div>
+              <div><span class="line-no">10</span>};</div>
+              <div class="code-cursor"><span class="line-no">11</span><span class="cursor-block"></span></div>
+            </div>
+            <div class="window-bottom"><span><i data-lucide="git-branch"></i> main</span><span><i
+                  data-lucide="check-circle-2"></i> Ready to build</span></div>
+          </div>
+          <div class="floating-chip chip-open"><span class="chip-icon"><i
+                data-lucide="git-pull-request"></i></span><span><b>Open source</b><small>Building in
+                public</small></span></div>
+          <div class="floating-chip chip-stack"><span class="chip-icon"><i
+                data-lucide="layers-3"></i></span><span><b>Full-stack mindset</b><small>Web · Mobile ·
+                Backend</small></span></div>
+          <div class="visual-glow"></div>
+        </div>
+        <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+      </section>
 
-    <section class="section-shell section-block" id="about">
-      <div class="section-kicker">01 / ABOUT</div>
-      <div class="section-heading-row"><h2>Curious by nature.<br><span class="muted-heading">Builder by choice.</span></h2><p class="section-intro">I enjoy taking ideas from a rough concept to a working product — learning the details, solving the tricky parts, and making the result useful.</p></div>
-      <div class="about-grid">
-        <div class="about-main"><p class="large-copy">My work sits at the intersection of <span>application development</span>, <span>backend engineering</span>, and <span>open-source software</span>.</p><p>I like exploring how software works beneath the surface: how data is structured, how features fit together, and how code can stay understandable as a project grows. I learn by building, iterating, and sharing what I make.</p><p>As the maintainer of Passcodes, I get to work on a real product and its surrounding community — from application features and architecture to developer experience.</p></div>
-        <aside class="about-note"><div class="note-icon"><i data-lucide="compass"></i></div><span class="note-label">CURRENT INTERESTS</span><h3>Thoughtful software.<br>Useful tools.<br>Open collaboration.</h3><div class="note-tags"><span>Product engineering</span><span>Open source</span><span>Clean architecture</span></div></aside>
-      </div>
-    </section>
+      <section class="section-shell section-block" id="about">
+        <div class="section-kicker">01 / ABOUT</div>
+        <div class="section-heading-row">
+          <h2>Curious by nature.<br><span class="muted-heading">Builder by choice.</span></h2>
+          <p class="section-intro">I enjoy taking ideas from a rough concept to a working product — learning the
+            details, solving the tricky parts, and making the result useful.</p>
+        </div>
+        <div class="about-grid">
+          <div class="about-main">
+            <p class="large-copy">My work sits at the intersection of <span>application development</span>,
+              <span>backend engineering</span>, and <span>open-source software</span>.</p>
+            <p>I like exploring how software works beneath the surface: how data is structured, how features fit
+              together, and how code can stay understandable as a project grows. I learn by building, iterating, and
+              sharing what I make.</p>
+            <p>As the maintainer of Passcodes, I get to work on a real product and its surrounding community — from
+              application features and architecture to developer experience.</p>
+          </div>
+          <aside class="about-note">
+            <div class="note-icon"><i data-lucide="compass"></i></div><span class="note-label">CURRENT INTERESTS</span>
+            <h3>Thoughtful software.<br>Useful tools.<br>Open collaboration.</h3>
+            <div class="note-tags"><span>Product engineering</span><span>Open source</span><span>Clean
+                architecture</span></div>
+          </aside>
+        </div>
+      </section>
 
-    <section class="section-shell section-block" id="skills">
-      <div class="section-kicker">02 / TOOLKIT</div>
-      <div class="section-heading-row"><h2>Tools I use to<br><span class="muted-heading">bring ideas to life.</span></h2><p class="section-intro">A growing toolkit across languages, interfaces, backend systems, mobile apps, and the tools that connect them.</p></div>
-      <div class="skills-grid">
-        <article class="skill-card"><div class="skill-card-head"><span class="skill-icon"><i data-lucide="braces"></i></span><span class="skill-index">01</span></div><h3>Languages</h3><p>Core tools for problem-solving and building software.</p><div class="skill-pills"><span>Java</span><span>JavaScript</span><span>TypeScript</span><span>Python</span></div></article>
-        <article class="skill-card"><div class="skill-card-head"><span class="skill-icon"><i data-lucide="panels-top-left"></i></span><span class="skill-index">02</span></div><h3>Frontend</h3><p>Creating clear, responsive, and interactive experiences.</p><div class="skill-pills"><span>React</span><span>HTML5</span><span>CSS3</span><span>Tailwind CSS</span></div></article>
-        <article class="skill-card"><div class="skill-card-head"><span class="skill-icon"><i data-lucide="server"></i></span><span class="skill-index">03</span></div><h3>Backend</h3><p>Building APIs and application logic.</p><div class="skill-pills"><span>Node.js</span><span>Express.js</span><span>FastAPI</span><span>REST APIs</span></div></article>
-        <article class="skill-card"><div class="skill-card-head"><span class="skill-icon"><i data-lucide="smartphone"></i></span><span class="skill-index">04</span></div><h3>Mobile</h3><p>Developing native and cross-platform experiences.</p><div class="skill-pills"><span>React Native</span><span>Expo</span><span>Android</span></div></article>
-        <article class="skill-card"><div class="skill-card-head"><span class="skill-icon"><i data-lucide="database"></i></span><span class="skill-index">05</span></div><h3>Data & ORM</h3><p>Working with relational and local data storage.</p><div class="skill-pills"><span>PostgreSQL</span><span>SQLite</span><span>Drizzle ORM</span></div></article>
-        <article class="skill-card"><div class="skill-card-head"><span class="skill-icon"><i data-lucide="terminal"></i></span><span class="skill-index">06</span></div><h3>Tools & Workflow</h3><p>Developer tools and environments for shipping software.</p><div class="skill-pills"><span>Git</span><span>GitHub</span><span>Linux</span><span>VS Code</span></div></article>
-      </div>
-    </section>
+      <section class="section-shell section-block" id="skills">
+        <div class="section-kicker">02 / TOOLKIT</div>
+        <div class="section-heading-row">
+          <h2>Tools I use to<br><span class="muted-heading">bring ideas to life.</span></h2>
+          <p class="section-intro">A growing toolkit across languages, interfaces, backend systems, mobile apps, and the
+            tools that connect them.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <div class="skill-card-head"><span class="skill-icon"><i data-lucide="braces"></i></span><span
+                class="skill-index">01</span></div>
+            <h3>Languages</h3>
+            <p>Core tools for problem-solving and building software.</p>
+            <div class="skill-pills"><span>Java</span><span>JavaScript</span><span>TypeScript</span><span>Python</span>
+            </div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-card-head"><span class="skill-icon"><i data-lucide="panels-top-left"></i></span><span
+                class="skill-index">02</span></div>
+            <h3>Frontend</h3>
+            <p>Creating clear, responsive, and interactive experiences.</p>
+            <div class="skill-pills"><span>React</span><span>HTML5</span><span>CSS3</span><span>Tailwind CSS</span>
+            </div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-card-head"><span class="skill-icon"><i data-lucide="server"></i></span><span
+                class="skill-index">03</span></div>
+            <h3>Backend</h3>
+            <p>Building APIs and application logic.</p>
+            <div class="skill-pills"><span>Node.js</span><span>Express.js</span><span>FastAPI</span><span>REST
+                APIs</span></div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-card-head"><span class="skill-icon"><i data-lucide="smartphone"></i></span><span
+                class="skill-index">04</span></div>
+            <h3>Mobile</h3>
+            <p>Developing native and cross-platform experiences.</p>
+            <div class="skill-pills"><span>React Native</span><span>Expo</span><span>Android</span></div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-card-head"><span class="skill-icon"><i data-lucide="database"></i></span><span
+                class="skill-index">05</span></div>
+            <h3>Data & ORM</h3>
+            <p>Working with relational and local data storage.</p>
+            <div class="skill-pills"><span>PostgreSQL</span><span>SQLite</span><span>Drizzle ORM</span></div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-card-head"><span class="skill-icon"><i data-lucide="terminal"></i></span><span
+                class="skill-index">06</span></div>
+            <h3>Tools & Workflow</h3>
+            <p>Developer tools and environments for shipping software.</p>
+            <div class="skill-pills"><span>Git</span><span>GitHub</span><span>Linux</span><span>VS Code</span></div>
+          </article>
+        </div>
+      </section>
 
-    <section class="section-shell section-block projects-section" id="projects">
-      <div class="section-kicker">03 / SELECTED WORK</div>
-      <div class="section-heading-row"><h2>Things I've<br><span class="muted-heading">built & maintained.</span></h2><p class="section-intro">A selection of projects that reflect my interests in product development, developer tooling, and reusable software.</p></div>
-      <div class="projects-list" id="projectsList"></div>
-      <div class="github-callout"><div><span class="callout-label">MORE ON GITHUB</span><h3>There is more where that came from.</h3><p>Explore my repositories, experiments, and open-source contributions.</p></div><a class="button button-outline" href="https://github.com/JeelDobariya38" target="_blank" rel="noreferrer">Visit GitHub <i data-lucide="arrow-up-right"></i></a></div>
-    </section>
+      <section class="section-shell section-block projects-section" id="projects">
+        <div class="section-kicker">03 / SELECTED WORK</div>
+        <div class="section-heading-row">
+          <h2>Things I've<br><span class="muted-heading">built & maintained.</span></h2>
+          <p class="section-intro">A selection of projects that reflect my interests in product development, developer
+            tooling, and reusable software.</p>
+        </div>
+        <div class="projects-list" id="projectsList"></div>
+        <div class="github-callout">
+          <div><span class="callout-label">MORE ON GITHUB</span>
+            <h3>There is more where that came from.</h3>
+            <p>Explore my repositories, experiments, and open-source contributions.</p>
+          </div><a class="button button-outline" href="https://github.com/JeelDobariya38" target="_blank"
+            rel="noreferrer">Visit GitHub <i data-lucide="arrow-up-right"></i></a>
+        </div>
+      </section>
 
-    <section class="section-shell section-block" id="education">
-      <div class="section-kicker">04 / EDUCATION</div>
-      <div class="section-heading-row"><h2>Learning is part<br><span class="muted-heading">of the process.</span></h2><p class="section-intro">Building a strong foundation while continuing to learn through coursework, projects, and hands-on engineering.</p></div>
-      <div class="education-card"><div class="education-mark"><i data-lucide="graduation-cap"></i></div><div class="education-content"><span class="education-status"><span class="status-dot"></span> CURRENTLY PURSUING</span><h3>Degree Program</h3><p class="institution">Marwadi University</p><div class="education-meta"><span><i data-lucide="calendar"></i> 2026 — Present</span><span><i data-lucide="map-pin"></i> Gujarat, India</span></div></div><div class="education-date">2026 <span>— PRESENT</span></div></div>
-      <p class="education-footnote">Specific degree title and academic details can be added when confirmed.</p>
-    </section>
+      <section class="section-shell section-block" id="education">
+        <div class="section-kicker">04 / EDUCATION</div>
+        <div class="section-heading-row">
+          <h2>Learning is part<br><span class="muted-heading">of the process.</span></h2>
+          <p class="section-intro">Building a strong foundation while continuing to learn through coursework, projects,
+            and hands-on engineering.</p>
+        </div>
+        <div class="education-card">
+          <div class="education-mark"><i data-lucide="graduation-cap"></i></div>
+          <div class="education-content"><span class="education-status"><span class="status-dot"></span> CURRENTLY
+              PURSUING</span>
+            <h3>Degree Program</h3>
+            <p class="institution">Marwadi University</p>
+            <div class="education-meta"><span><i data-lucide="calendar"></i> 2026 — Present</span><span><i
+                  data-lucide="map-pin"></i> Gujarat, India</span></div>
+          </div>
+          <div class="education-date">2026 <span>— PRESENT</span></div>
+        </div>
+        <p class="education-footnote">Specific degree title and academic details can be added when confirmed.</p>
+      </section>
 
-    <section class="contact-section" id="contact"><div class="contact-inner section-shell"><div class="section-kicker">05 / CONTACT</div><div class="contact-content"><div><span class="contact-overline">HAVE AN IDEA IN MIND?</span><h2>Let's build something<br><span class="gradient-text">meaningful together.</span></h2><p>Have an interesting project, an open-source collaboration opportunity, or simply want to connect? I'd be glad to hear from you.</p><a class="button button-primary" href="mailto:jeeldobariya38@gmail.com">Send me an email <i data-lucide="arrow-up-right"></i></a></div><div class="contact-links"><a href="mailto:jeeldobariya38@gmail.com"><span class="contact-link-icon"><i data-lucide="mail"></i></span><span><small>EMAIL</small><b>jeeldobariya38@gmail.com</b></span><i data-lucide="arrow-up-right"></i></a><a href="https://www.linkedin.com/in/jeeldobariya" target="_blank" rel="noreferrer"><span class="contact-link-icon"><i data-lucide="linkedin"></i></span><span><small>LINKEDIN</small><b>Connect professionally</b></span><i data-lucide="arrow-up-right"></i></a><a href="https://t.me/jeeldobariya38" target="_blank" rel="noreferrer"><span class="contact-link-icon"><i data-lucide="send"></i></span><span><small>TELEGRAM</small><b>@jeeldobariya38</b></span><i data-lucide="arrow-up-right"></i></a><a href="https://github.com/JeelDobariya38" target="_blank" rel="noreferrer"><span class="contact-link-icon"><i data-lucide="github"></i></span><span><small>GITHUB</small><b>Explore my code</b></span><i data-lucide="arrow-up-right"></i></a></div></div></div></section>
-  </main>
-  <footer class="site-footer section-shell"><a class="brand" href="#home"><span class="brand-mark">J<span>.</span></span><span>jeel<span class="brand-muted">.dev</span></span></a><span>Designed & built with intention.</span><a href="#home" class="back-top">BACK TO TOP <i data-lucide="arrow-up"></i></a><span class="copyright">© <span id="year"></span> Jeel Dobariya</span></footer>
-  <script src="js/projects.js"></script><script src="js/main.js"></script>
-</body>
+      <section class="contact-section" id="contact">
+        <div class="contact-inner section-shell">
+          <div class="section-kicker">05 / CONTACT</div>
+          <div class="contact-content">
+            <div><span class="contact-overline">HAVE AN IDEA IN MIND?</span>
+              <h2>Let's build something<br><span class="gradient-text">meaningful together.</span></h2>
+              <p>Have an interesting project, an open-source collaboration opportunity, or simply want to connect? I'd
+                be glad to hear from you.</p><a class="button button-primary"
+                href="mailto:jeeldobariya38@gmail.com">Send me an email <i data-lucide="arrow-up-right"></i></a>
+            </div>
+            <div class="contact-links"><a href="mailto:jeeldobariya38@gmail.com"><span class="contact-link-icon"><i
+                    data-lucide="mail"></i></span><span><small>EMAIL</small><b>jeeldobariya38@gmail.com</b></span><i
+                  data-lucide="arrow-up-right"></i></a><a href="https://www.linkedin.com/in/jeeldobariya"
+                target="_blank" rel="noreferrer"><span class="contact-link-icon"><i
+                    data-lucide="linkedin"></i></span><span><small>LINKEDIN</small><b>Connect
+                    professionally</b></span><i data-lucide="arrow-up-right"></i></a><a
+                href="https://t.me/jeeldobariya38" target="_blank" rel="noreferrer"><span class="contact-link-icon"><i
+                    data-lucide="send"></i></span><span><small>TELEGRAM</small><b>@jeeldobariya38</b></span><i
+                  data-lucide="arrow-up-right"></i></a><a href="https://github.com/JeelDobariya38" target="_blank"
+                rel="noreferrer"><span class="contact-link-icon"><i
+                    data-lucide="github"></i></span><span><small>GITHUB</small><b>Explore my code</b></span><i
+                  data-lucide="arrow-up-right"></i></a></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer section-shell"><a class="brand" href="#home"><span
+          class="brand-mark">J<span>.</span></span><span>jeel<span
+            class="brand-muted">.dev</span></span></a><span>Designed & built with intention.</span><a href="#home"
+        class="back-top">BACK TO TOP <i data-lucide="arrow-up"></i></a><span class="copyright">© <span id="year"></span>
+        Jeel Dobariya</span></footer>
+    <script src="js/projects.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+
 </html>
